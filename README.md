@@ -28,4 +28,4 @@ y usar `process.env.USER || process.env.USERNAME` para que el script funcione
 sin importar el sistema operativo donde se ejecute.
 
 ## Evidencia de ejecución
-![Evidencia de ejecución](img/Captura de pantalla.png)
+![Evidencia de ejecucion](img/captura.png) 
