@@ -1,0 +1,12 @@
+{
+  "name": "entrega-tecnica-1",
+  "version": "1.0.0",
+  "description": "Script de diagnóstico para la materia",
+  "main": "diagnostico.js",
+  "scripts": {
+    "diagnostico": "node diagnostico.js"
+  },
+  "keywords": [],
+  "author": "Tu Nombre",
+  "license": "ISC"
+}
