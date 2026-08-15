@@ -17,6 +17,8 @@ npm --version
 git --version
 git version 2.54.0.windows.1
 
+![Evidencia de ejecucion](img/captura1.png) 
+
 ## Cómo ejecutarlo
 
 Con Node directamente:
