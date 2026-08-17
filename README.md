@@ -1,15 +1,10 @@
 # Trabajos Técnicos - Diseño y Arquitectura de Despliegue I
 
-Esta es la primera prueba técnica de Diseño y Arquitectura de Despliegue I.
-
 **Alumno:** Teo Rojas
+
 **Profesor:** Christian Lucas Di Guardia
 
 ---
-
-## Entrega Técnica 1 - Diagnóstico de entorno
-
-Script en Node.js que informa datos básicos del entorno de ejecución...
 
 # Entrega Técnica 1 - Diagnóstico de entorno
 
@@ -72,3 +67,6 @@ sin importar el sistema operativo donde se ejecute.
 
 ## Evidencia de ejecución
 ![Evidencia de ejecucion](img/captura.png) 
+
+Bibliografía:
+Node: https://nodejs.org/api/process.html
