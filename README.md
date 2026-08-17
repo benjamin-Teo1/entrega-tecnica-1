@@ -6,10 +6,6 @@
 
 ---
 
-## Entrega Técnica 1 - Diagnóstico de entorno
-
-Script en Node.js que informa datos básicos del entorno de ejecución...
-
 # Entrega Técnica 1 - Diagnóstico de entorno
 
 Script en Node.js que informa datos básicos del entorno de ejecución: 
