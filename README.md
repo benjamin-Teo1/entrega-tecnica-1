@@ -1,8 +1,7 @@
 # Trabajos Técnicos - Diseño y Arquitectura de Despliegue I
 
-Esta es la primera prueba técnica de Diseño y Arquitectura de Despliegue I.
-
 **Alumno:** Teo Rojas
+
 **Profesor:** Christian Lucas Di Guardia
 
 ---
