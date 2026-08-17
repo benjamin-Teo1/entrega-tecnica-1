@@ -1,3 +1,16 @@
+# Trabajos Técnicos - Diseño y Arquitectura de Despliegue I
+
+Esta es la primera prueba técnica de Diseño y Arquitectura de Despliegue I.
+
+**Alumno:** Teo Rojas
+**Profesor:** Christian Lucas Di Guardia
+
+---
+
+## Entrega Técnica 1 - Diagnóstico de entorno
+
+Script en Node.js que informa datos básicos del entorno de ejecución...
+
 # Entrega Técnica 1 - Diagnóstico de entorno
 
 Script en Node.js que informa datos básicos del entorno de ejecución: 
@@ -35,6 +48,21 @@ También se le pueden pasar argumentos extra, por ejemplo:
 
 node diagnostico.js arg1 desarrollo
 
+## Qué hace cada línea
+
+```javascript
+console.log("--- DIAGNÓSTICO DE ENTORNO ---");
+console.log("Versión de Node.js:", process.version);
+console.log("Plataforma:", process.platform);
+console.log("Argumentos pasados por consola:", process.argv);
+console.log("Usuario del sistema:", process.env.USER || process.env.USERNAME);
+```
+
+- **`console.log(...)`**: imprime texto en la terminal.
+- **`process.version`**: devuelve la versión de Node.js instalada.
+- **`process.platform`**: devuelve el sistema operativo (`win32`, `linux`, `darwin`).
+- **`process.argv`**: array con la ruta de node, la ruta del script y los argumentos extra pasados por consola.
+- **`process.env.USER || process.env.USERNAME`**: lee la variable de entorno del usuario. Uso `||` porque `USER` existe en Linux/Mac pero no en Windows, donde la variable se llama `USERNAME`.
 
 ## Aprendizajes
 Lo que más me costó fue entender que `process.env.USER` no funciona en Windows, 
