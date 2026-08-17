@@ -67,6 +67,3 @@ sin importar el sistema operativo donde se ejecute.
 
 ## Evidencia de ejecución
 ![Evidencia de ejecucion](img/captura.png) 
-
-Bibliografía:
-Node: https://nodejs.org/api/process.html
